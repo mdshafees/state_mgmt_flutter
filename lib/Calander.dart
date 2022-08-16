@@ -53,7 +53,7 @@ class EventCalander extends StatelessWidget {
                           padding: EdgeInsets.all(0),
                           width: MediaQuery.of(context).size.width,
                           decoration: BoxDecoration(
-                              color: Colors.grey.shade300,
+                              color: Colors.grey.shade200,
                               borderRadius: BorderRadius.circular(10)),
                           child: ListTile(
                             title: Text(event.title),
